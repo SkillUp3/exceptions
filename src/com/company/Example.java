@@ -12,7 +12,7 @@ public class Example {
         try {
             int result = divide();
             System.out.println(result);
-        } catch (ArithmeticException | NoSuchElementException |  e)
+        } catch (ArithmeticException | NoSuchElementException  e)
 
         {
             System.out.println(e.toString());
